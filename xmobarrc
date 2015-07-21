@@ -1,0 +1,23 @@
+-- ~/.xmonad/.xmobarrc
+
+--SOURCE: https://beginners-guide-to-xmonad.readthedocs.org/en/latest/configure_xmonadhs.html
+Config { font = "xft:Monospace-9:bold"
+        , borderColor = "black"
+        , border = TopB
+        , bgColor = "black"
+        , fgColor = "grey"
+        , position = Static { xpos = 0 , ypos = 0, width = 1920, height = 24 }
+        , commands = [ Run Network "eth0" ["-L","0","-H","32","--normal","green","--high","red"] 10
+                        , Run Network "eth1" ["-L","0","-H","32","--normal","green","--high","red"] 10
+                        , Run MultiCpu ["-t", "cpu <total0>% <total1>% <total2>% <total3>%", "-L","20","-H","90","--normal","green","--high","red"] 10
+                        , Run Memory ["-t","mem <usedratio>%"] 10
+                        , Run Swap [] 10
+                        , Run Com "uname" ["-s","-r"] "" 36000
+                        , Run Date "%a %Y-%m-%_d %H:%M:%S" "date" 10
+                        , Run StdinReader
+                        ]
+        , sepChar = "%"
+        , alignSep = "}{"
+        , allDesktops = True
+        , template = "%StdinReader% }{%uname%   %multicpu%   %memory%   %swap%    <fc=#ee9a00>%date%</fc>              "
+        }

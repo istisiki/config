@@ -1,0 +1,3 @@
+sudo apt-get install xmonad
+sudo apt-get install xmobar
+sudo apt-get install dmenu
