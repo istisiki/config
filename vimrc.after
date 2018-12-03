@@ -1,3 +1,3 @@
 colorscheme settlemyerstacey
-
 set colorcolumn=80
+highlight ColorColumn ctermbg=234
