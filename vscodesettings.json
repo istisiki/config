@@ -1,0 +1,136 @@
+{
+    "editor.tabSize": 2,
+    "editor.largeFileOptimizations": false,
+    "editor.renderWhitespace": "all",
+    "editor.codeActionsOnSave": {
+
+        "source.fixAll.eslint": true,
+        "eslint.validate": true
+    },
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": "comment",
+                "settings": {
+                    "fontStyle": "italic"
+                }
+            }
+        ]
+    },
+    "terminal.integrated.fontFamily": "MesloLGS NF",
+    "files.exclude": {
+        "**/.trunk/*out": true,
+        "**/.trunk/*out/": true,
+        "**/.trunk/*actions/": true,
+        "**/.trunk/*logs/": true,
+        "**/.trunk/*plugins/": true
+    },
+    "indentRainbow.colors": [
+        "rgba(255,105,120,0.07)",
+        "rgba(255,252,249,0.07)",
+        "rgba(177,237,232,0.07)",
+        "rgba(98,171,55,0.07)"
+    ],
+    "json.maxItemsComputed": 15000,
+    "indentRainbow.colorOnWhiteSpaceOnly": true,
+    "gitlens.defaultDateFormat": "YYYY-MM-DD",
+    "gitlens.defaultDateShortFormat": "YY-MM-DD",
+    "gitlens.defaultTimeFormat": "HH:mm",
+    "gitlens.views.formats.commits.label": "${tips} ${message|20}",
+    "gitlens.views.branches.branches.layout": "list",
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    // "[typescriptreact]": {
+    //     "editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
+    // },
+    "[javascriptreact]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "ponicode.token": "f205f67b-0db2-494e-97a7-829d8b98ba50",
+    "git.autofetch": true,
+    "ruby.rubocop.onSave": false,
+    "typescript.inlayHints.enumMemberValues.enabled": true,
+    "ponicode.watchMode": false,
+    "workbench.iconTheme": "city-lights-icons-vsc",
+    "eslint.alwaysShowStatus": true,
+    "eslint.format.enable": true,
+    "prettier.eslintIntegration": true,
+    "editor.inlineSuggest.enabled": true,
+    "github.copilot.enable": {
+        "*": true,
+        "yaml": false,
+        "plaintext": true,
+        "markdown": false
+    },
+    "sonarlint.output.showAnalyzerLogs": true,
+    "sonarlint.output.showVerboseLogs": true,
+    "editor.unicodeHighlight.ambiguousCharacters": false,
+    "extensions.ignoreRecommendations": true,
+    "editor.minimap.enabled": false,
+    "terminal.integrated.enableMultiLinePasteWarning": false,
+    "editor.fontLigatures": false,
+    "terminal.integrated.copyOnSelection": true,
+    "terminal.integrated.cursorBlinking": true,
+    "terminal.integrated.gpuAcceleration": "off",
+    "bracketLens.color": "#363A3F",
+    "bracketLens.minBracketScopeLines": 12,
+    "bracketLens.line": "start-line-number",
+    "editor.rulers": [
+        {
+            "column": 80,
+            "color": "#393945"
+        }
+    ],
+    "editor.formatOnSaveMode": "modifications",
+    "workbench.editor.wrapTabs": true,
+    "editor.guides.bracketPairs": true,
+    "debug.console.fontSize": 9,
+    "trunk.trunkGrayOutNonBlockingIssues": false,
+    "files.watcherExclude": {
+        "**/.trunk/*out": true,
+        "**/.trunk/*out/": true,
+        "**/.trunk/*actions/": true,
+        "**/.trunk/*logs/": true,
+        "**/.trunk/*plugins/": true
+    },
+    "totalTypeScript.hideAllTips": false,
+    "totalTypeScript.hideBasicTips": false,
+    "totalTypeScript.hiddenTips": [
+        "type-alias-declaration",
+        "ts-object-type",
+        "basic-types",
+        "optional-object-property",
+        "typing-function-parameters",
+        "union-type",
+        "array-type",
+        "undefined-keyword",
+        "passing-generics-to-types",
+        "record-utility-type",
+        "function-return-type",
+        "literal-type",
+        "variable-type-annotation",
+        "as-assertion",
+        "readonly-object-property",
+        "typeof",
+        "generic-slots-in-functions",
+        "as-const",
+        "pick-utility-type",
+        "tuple-type",
+        "type-alias-with-generics"
+    ],
+    "editor.unicodeHighlight.invisibleCharacters": false,
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "window.zoomLevel": 1
+}
